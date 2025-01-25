@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forcastify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="box">
+        <p id="first" >Forecastify : Bringing the skies closer to you</p>
+        <div class="search">
+            <input type="text" placeholder="enter city name...">
+            <button><img src="search.png" alt=""></button>
+        </div>
+        <div class="error">
+            <p>Invalid city name</p>
+        </div>
+        <div class="weather">
+            <img class="weather-icon" src="clear-sky.png" alt="">
+            <h1 id="textt" class="temp">25°C</h1>
+            <h2 id="textt" class="city">Vrindavan</h2>    
+        </div>
+
+            <div class="details">
+                <div class="humidity">
+                    <img id="details" src="Humidity.png" alt="">
+                    <div>
+                        <p id="pcent" >50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="wind">
+                    <img id="details" src="wind.png" alt="">
+                    <div>
+                        <p id="speed" > 15 km/h</p>
+                        <p>wind speed</p>
+                    </div>
+                </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+
+</html>
